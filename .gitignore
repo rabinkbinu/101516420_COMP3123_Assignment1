@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+
+# Generated logs (a sample log is committed instead)
+logs/*.log
+!logs/sample-app.log
+
+# Vercel
+.vercel
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+npm-debug.log*
