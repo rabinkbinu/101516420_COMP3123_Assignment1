@@ -7,7 +7,7 @@ A secure RESTful backend built with **Node.js, Express and MongoDB**. Users sign
 | **Course** | COMP3123 – Full Stack Development I |
 | **Student** | Rabin Kunnananickal Binu – 101516420 |
 | **GitHub** | `https://github.com/<github-username>/101516420_COMP3123_Assignment1` |
-| **Deployed API (Vercel)** | `https://<your-project>.vercel.app` |
+   | **Deployed API (Vercel)** | `https://101516420-comp3123-assignment1.vercel.app` |
 | **Database** | MongoDB – `comp3123_assignment1` |
 
 ---
@@ -40,7 +40,7 @@ A secure RESTful backend built with **Node.js, Express and MongoDB**. Users sign
 | Rate limiting | express-rate-limit |
 | Logging | winston |
 | Configuration | dotenv |
-| Dev tools | nodemon, Postman |
+| Dev tools | Node.js built-in watch mode (node --watch), Postman |
 
 ## 3. Project Structure
 
@@ -122,7 +122,7 @@ node -e "console.log(require('crypto').randomBytes(48).toString('hex'))"
 #    Atlas:  nothing to start – just put the Atlas connection string in MONGODB_URI
 
 # 5. Start the application
-npm run dev        # development (auto-restart with nodemon)
+npm run dev        # (auto-restarts when files change)
 # or
 npm start          # plain node
 
